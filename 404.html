@@ -1,11 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=https://quran.com/" />
-    <title>Not found</title>
-  </head>
-  <body>
-    <p>Not found. Redirecting to <a href="https://quran.com/">Quran.com</a>…</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - The True Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-2">The True Book</h1>
+            <p class="text-xl opacity-90">Page Not Found</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-16 text-center">
+        <div class="max-w-md mx-auto">
+            <h2 class="text-6xl font-bold text-gray-300 mb-4">404</h2>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Page Not Found</h3>
+            <p class="text-gray-600 mb-8">The page you're looking for doesn't exist. But you can still explore the Quran!</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/" 
+                   class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                    🏠 Go Home
+                </a>
+                <a href="https://quran.com" 
+                   target="_blank"
+                   class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                    📖 Visit Quran.com
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">&copy; 2025 The True Book - Quran Tafsir Explorer</p>
+            <p class="text-gray-400">Explore the Quran with scholarly commentary</p>
+        </div>
+    </footer>
+</body>
 </html>
